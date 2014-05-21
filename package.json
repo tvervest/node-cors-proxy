@@ -1,0 +1,29 @@
+{
+  "name": "cors-proxy",
+  "version": "0.0.0",
+  "description": "A simple node.js CORS proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tvervest/node-cors-proxy.git"
+  },
+  "keywords": [
+    "cors",
+    "proxy"
+  ],
+  "author": "Thomas Vervest <thomas@squarewolf.nl> (http://www.squarewolf.nl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tvervest/node-cors-proxy/issues"
+  },
+  "homepage": "https://github.com/tvervest/node-cors-proxy",
+  "dependencies": {
+    "http-proxy": "^1.1.4",
+    "nconf": "^0.6.9",
+    "cors": "^2.3.1",
+    "express": "^4.3.0"
+  }
+}
